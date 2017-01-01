@@ -1,10 +1,9 @@
-MORPG
--------
-
+mMORPG
+------
 ### Introduction
 
 * Concept
-    - An MORPG, styled after Runescape, rendered entirely ASCII
+    - A very small MMORPG, styled after Runescape, rendered entirely ASCII
 * Purpose
     - To have fun with programming
     - To improve my programming skills
@@ -17,19 +16,20 @@ MORPG
 ### Features
 
 * Needs
-    - Client-server communication
-    - Player movement
-    - Map (as both an array of tiles and array of characters)
-    - Display of map on screen
+    - ~~Client-server communication~~ Done!
+    - ~~Player movement~~ Done!
+    - ~~Map (as both an array of tiles and array of characters)~~ Done!
+    - Display of map on screen - Working on it!
+    - Dialogue box - for player chat and other information - Working on it!
+    - Unique player accounts
     - Server support for multiple concurrent users
 * Wants
-    - Dialogue box - for player chat and other information
+    - Colored text in dialogue box
     - Fight system
     - Quests
     - Inventory display
     - Stat screen
 * Frills
-    - Colored text in dialogue box
     - Button re-maps
     - Windows compatibility
     - Sound
@@ -37,9 +37,9 @@ MORPG
 ### Things to keep in mind
 
 * Concerns
-    - Client has no access to objects
+    - Client has no access to objects (Can't write a client that will give you an advantage)
 * Not-Concerns
-    - Efficiency
-    - "Correct" solutions
-    - Account security
-    - Compatibility outside of Linux
+    - Efficiency (Beyond what's necessary)
+    - "Correct" solutions (Emphasis on solving problems myself)
+    - Account security (Who cares about this game, I don't want people sending me passwords)
+    - Compatibility outside of Linux (Not as long as there's little interest in the game)
